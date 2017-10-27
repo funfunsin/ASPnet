@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="40.aspx.cs" Inherits="_40" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="40SqlDataAdapter.aspx.cs" Inherits="_40SqlDataAdapter" %>
 
 <!DOCTYPE html>
 

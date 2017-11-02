@@ -8,16 +8,15 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Configuration;
 
-public partial class _67Login : System.Web.UI.Page
+public partial class _69ContentPage : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
 
     }
-
     protected void Button1_Click(object sender, EventArgs e)
     {
-        SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["ScoresConnectionString1"].ConnectionString);
+        SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["ScoresConnectionString"].ConnectionString);
         SqlCommand cmd = new SqlCommand("select * from userdata where id=@id and pwd=@pwd", conn);
         //SqlCommand cmd = new SqlCommand("select * from userdata where id='"+ txtAccount.Text + "' and pwd='"+ txtPwd.Text+"'", conn);
         cmd.Parameters.AddWithValue("@id", txtAccount.Text);

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="" title="我的資訊系統"  description="">
+      <siteMapNode url="" title="商品管理"  description="">
+        <siteMapNode url="" title="商品編輯"  description="">
+          <siteMapNode url="NewProduct.aspx" title="商品新增"  description="" />
+          <siteMapNode url="EditProduct.aspx" title="商品修改"  description="" />
+          <siteMapNode url="OnProduct.aspx" title="商品上下架"  description="" />
+      
+        </siteMapNode>
+        <siteMapNode url="SearchProduct.aspx" title="商品查詢"  description="" />
+        
+      </siteMapNode>
+        <siteMapNode url="" title="會員管理"  description="">
+          <siteMapNode url="NewMember.aspx" title="會員新增作業"  description="" />
+          <siteMapNode url="EditMember.aspx" title="會員修改作業"  description="" />
+          <siteMapNode url="SearchMember.aspx" title="會員查詢作業"  description="" />
+        </siteMapNode>
+        <siteMapNode url="" title="訂單管理"  description="">
+          <siteMapNode url="EditOrder.aspx" title="訂單修改作業"  description="" />
+          <siteMapNode url="SearchOrder.aspx" title="訂單查詢作業"  description="" />
+        </siteMapNode>
+      <siteMapNode url="CusCenter.aspx" title="客服中心"  description="" />
+    </siteMapNode>
+</siteMap>

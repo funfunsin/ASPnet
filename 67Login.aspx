@@ -48,7 +48,7 @@
                 </td>
                 <td>
                     <asp:Button ID="Button1" runat="server" Text="登入" CssClass="btn btn-primary" OnClick="Button1_Click" />
-                    <input id="Reset1" type="reset" value="重填" class="btn btn-default" />
+                    <input id="Reset1" type="reset" value="重填" class="btn btn-default" />  <%--沒有要跟後端連結.就拉前端的控制項就好--%>
                 </td>
                 
                

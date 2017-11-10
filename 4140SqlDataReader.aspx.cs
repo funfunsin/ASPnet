@@ -18,7 +18,7 @@ public partial class _4140SqlDataReader : System.Web.UI.Page
     
         //一次只讀取一筆資料,讀完就釋放 I/O會比較重
         SqlDataReader rd;
-        conn.Open();  //記得有Open就要有Close 才不會暫住記憶體
+        conn.Open();  //記得有Open就要有Close 才不會佔住記憶體
 
         rd =objCmd.ExecuteReader(); //用SqlDataReader rd來接收回傳的結果  //ExecuteReader會將"select * from StudentScores"丟回資料庫執行
 

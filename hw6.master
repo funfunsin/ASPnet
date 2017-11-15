@@ -16,7 +16,7 @@
     <form id="form1" runat="server">
         <div class="container">
             <div class="jumbotron MyJumBack">
-                <h1>MD美食街</h1>
+                <h1>美食街</h1>
                 <p>後台介面管理</p>
             </div>
             <div>

@@ -11,7 +11,7 @@ public class _45getProductsImg : IHttpHandler {
         //context.Response.ContentType = "text/plain";
         //context.Response.Write("Hello World");
         
-        SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["ScoresConnectionString1"].ConnectionString);
+        SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["ScoresConnectionString"].ConnectionString);
         SqlCommand objCmd = new SqlCommand("select * from Products2 where ProductID='"+context.Request.QueryString["id"]+"'", conn);
 
         SqlDataReader rd;

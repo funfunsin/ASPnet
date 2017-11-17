@@ -77,7 +77,7 @@
     <form id="form1" runat="server">
     <div>
     <asp:SqlDataSource ID="SqlDataSource1" runat="server" 
-            ConnectionString="<%$ ConnectionStrings:ScoresConnectionString1 %>" 
+            ConnectionString="<%$ ConnectionStrings:ScoresConnectionString %>" 
             SelectCommand="SELECT * FROM [StudentScores]"
          InsertCommand="insert into StudentScores values(@Name,@StudentNo,@Address,@Chinese,@English,@Mathematics,@Class)"
          UpdateCommand="update [StudentScores] set Chinese=@Chinese, English=@English, Mathematics=@Mathematics where StudentNo=@StudentNo"

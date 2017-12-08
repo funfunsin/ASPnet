@@ -10,7 +10,7 @@
 <body>
     <form id="form1" runat="server">
     <div>
-        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ScoresConnectionString1 %>"
+        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ScoresConnectionString %>"
              SelectCommand="SELECT * FROM [StudentScores]"
              UpdateCommand="update [StudentScores] set Name=@Name, Address=@Address,Chinese=@Chinese,English=@English,Mathematics=@Mathematics,Class=@Class where StudentNo=@StudentNo"
             DeleteCommand="delete from [StudentScores] where StudentNo=@StudentNo"

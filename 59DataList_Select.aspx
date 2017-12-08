@@ -56,7 +56,7 @@
 <body>
     <form id="form1" runat="server">
     <div>
-     <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ScoresConnectionString1 %>" SelectCommand="SELECT * FROM [StudentScores]"></asp:SqlDataSource>
+     <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ScoresConnectionString %>" SelectCommand="SELECT * FROM [StudentScores]"></asp:SqlDataSource>
         <asp:DataList ID="myData" runat="server" DataKeyField="StudentNo" DataSourceID="SqlDataSource1"
              RepeatColumns="4" RepeatDirection="Vertical" OnItemCommand="myData_ItemCommand">
             <SelectedItemTemplate>
